@@ -11,7 +11,6 @@ body {
 
 main {
   background: #252d37;
-  border: 2px solid red;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -20,12 +19,7 @@ main {
   border-radius: 20px;
 }
 
-main aside {
-  border: 2px solid red;
-}
-
 main #aside1 img {
-  border: 2px solid red;
   padding: 20px;
   border-radius: 50%;
   margin: 10px 0 10px 0;
@@ -38,15 +32,12 @@ main #aside2 {
 }
 
 main #aside2 img {
-  border: 2px solid red;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 main header {
-  border: 2px solid red;
-  border: 2px solid blue;
   color: white;
 }
 
@@ -70,8 +61,6 @@ main header p {
 }
 
 main section {
-  border: 2px solid red;
-  border: 2px solid green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,7 +75,7 @@ main section .span {
   margin: 10px 0 10px 0;
   padding: 20px;
   background: rgba(124, 135, 152, 0.3);
-  border: 2px solid red;
+  border: none;
   border-radius: 50%;
 }
 
@@ -97,11 +86,6 @@ main section .span:hover {
 
 main section .span:focus {
   background-color: #fb7413;
-}
-
-main footer {
-  border: 2px solid red;
-  border: 2px solid yellow;
 }
 
 main footer #submit {

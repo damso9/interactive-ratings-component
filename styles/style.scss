@@ -17,7 +17,7 @@ body {
 }
 main {
   background: $dark-blue;
-  border: $test;
+  
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -25,11 +25,11 @@ main {
   padding: 20px;
   border-radius: 20px;
   aside {
-    border: $test;
+    
   }
   #aside1 {
     img {
-      border: $test;
+      
       padding: 20px;
       border-radius: 50%;
       margin: 10px 0 10px 0;
@@ -41,15 +41,15 @@ main {
     display: none;
     margin: 10px 0 10px 0;
     img {
-        border: $test;
+        
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
   }
   header {
-    border: $test;
-    border: 2px solid blue;
+    
+
     color: $white;
     .selection {
       display: none;
@@ -62,15 +62,15 @@ main {
       text-align: center;
       padding: 10px;
       border-radius: 20px;
-      
+
     }
     p {
       color: $light-grey;
     }
   }
   section {
-    border: $test;
-    border: 2px solid green;
+    
+
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -80,7 +80,8 @@ main {
       margin: 10px 0 10px 0;
       padding: 20px;
       background: $custom-grey;
-      border: $test;
+      border: none;
+      
         border-radius: 50%;
       &:hover {
         background-color: $medium-grey;
@@ -92,8 +93,8 @@ main {
     }
   }
   footer {
-    border: $test;
-    border: 2px solid yellow;
+    
+ 
     #submit {
       color: $white;
       background-color: $orange;
