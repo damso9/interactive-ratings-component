@@ -1,0 +1,142 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121417;
+}
+
+main {
+  background: #252d37;
+  border: 2px solid red;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+main aside {
+  border: 2px solid red;
+}
+
+main #aside1 img {
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 10px 0 10px 0;
+  background-color: rgba(124, 135, 152, 0.3);
+}
+
+main #aside2 {
+  display: none;
+  margin: 10px 0 10px 0;
+}
+
+main #aside2 img {
+  border: 2px solid red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main header {
+  border: 2px solid red;
+  border: 2px solid blue;
+  color: white;
+}
+
+main header .selection {
+  display: none;
+  color: #fb7413;
+  background-color: rgba(124, 135, 152, 0.3);
+  margin: 20px 0 20px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+main header p {
+  color: #959eac;
+}
+
+main section {
+  border: 2px solid red;
+  border: 2px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section .span {
+  color: #959eac;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  background: rgba(124, 135, 152, 0.3);
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+main section .span:hover {
+  background-color: #7c8798;
+  color: white;
+}
+
+main section .span:focus {
+  background-color: #fb7413;
+}
+
+main footer {
+  border: 2px solid red;
+  border: 2px solid yellow;
+}
+
+main footer #submit {
+  color: white;
+  background-color: #fb7413;
+  margin: 10px 0 10px 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 20px;
+}
+
+main footer #submit:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+@media only screen and (min-width: 500px) {
+  main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 788px) {
+  main {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  main {
+    width: 35%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
