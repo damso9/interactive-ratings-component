@@ -43,7 +43,6 @@ submit.onclick = function (e) {
       "We appreciate you taking the time to give a rating. If you ever need more support, don;t hesistate to get in touch!";
     console.log(submitValue);
     p.style.textAlign = "center";
-    p.style.border = "2px solid red";
     section.style.display = "none";
     submit.style.display = "none";
   }
